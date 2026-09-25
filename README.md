@@ -1,15 +1,15 @@
-# Replace with your unique project name
+# Color blindness caculator
 
 ## Description
 
 **version 1.0**
 
-Replace with a description of *what* your program does (not *how* it works)
+gives you different color blindness colors based off input
 
 
 ## Developer
 
-Replace with your name
+Kenneth Price
 
 ## Example
 
@@ -23,5 +23,18 @@ g++ --std=c++11 *.cpp -o cvp
 Here is an example of the program running:
 
 ```
-Replace this with a copy-pasted example of the input/output of your program running.
+Enter a red rgb color <= 255:
+255
+Enter a blue rgb color <= 255:
+0
+Enter a green rgb color <= 255:
+0
+
+Choose a color blindness type to simulate:
+1. Protanopia (Red-blindness)
+2. Deuteranopia (Green-blindness)
+3. Tritanopia (Blue-blindness)
+Enter 1, 2, or 3: 1
+
+[Protanopia Output] R=38 G=28 B=0
 ```
